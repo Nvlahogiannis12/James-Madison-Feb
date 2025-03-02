@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
+    <body class="mb-5">
         <header>
             <!-- place navbar here -->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -30,13 +30,13 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#Early">Early</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#President">Presidency</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#After">After</a>
                       </li>
                     </ul>
                   </div>
@@ -49,7 +49,7 @@
             </div>
             <div class="row d-flex justify-content-center mx-3">
                 <div class="col-lg-6 col-12 text-center mt-3">
-                    <h3>Early Life & Education</h3>
+                    <h3 id="Early">Early Life & Education</h3>
                     <h5>James Madison was born in Port Conway, Virginia to a wealthy family of farmers on March 16, 1751. His parents names were Eleanor Conway, and James Madison Sr. as well as having 12 siblings. He went to college at the College of New Jersey (later named Princeton). Before entering politics Madison studied law, which shaped most of his beliefs.
                     </h5>
                 </div>
@@ -63,18 +63,39 @@
             </div>
             <div class="row d-flex justify-content-center mx-3">
               <div class="col-lg-6 col-12 text-center mt-3">
-                  <h3>Presidency</h3>
+                  <h3 id="President">Presidency</h3>
                   <h5>As president James Madison enacted many policies and laws some of which included: refurbishing the White house, allowed for the occupation of West Florida, and by the end of his term the beginning of the War of 1812. By the time of his next term the War of 1812 was happening. In 1814 the british burnt down the White house forcing reconstruction. Soon in 1815 a treaty was met. James Madison Served from 1809-1817.</h5>
               </div>
               <div class="col-lg-6 col-12 text-center mt-3">
-                  <h3>Life after Presidency</h3>
-                  <h5>After his presidency James Madison continued to write and speak out for what several organizations and what he believed in such as opposing states rights and religious freedoms. He also remained politically active assisting Monroe on foreign affairs and writing newspaper articles in his defense. James Madison died on June 28, 1836 of Heart Failure in his home.</h5>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UyVi_clqe24?si=EKX_qvo1SbDB6y7-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
           </div>
+          <div class="row d-flex justify-content-center mx-3">
+            <div class="col-lg-6 col-12 text-center mt-5">
+                <h3 id="After">Life after Presidency</h3>
+                <h5>After his presidency James Madison continued to write and speak out for what several organizations and what he believed in such as opposing states rights and religious freedoms. He also remained politically active assisting Monroe on foreign affairs and writing newspaper articles in his defense. James Madison died on June 28, 1836 of Heart Failure in his home.</h5>
+            </div>
+            
+        </div>
         </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
+        <div class="container-fluid">
+          <footer class="py-3 my-4">
+            <div class=" col-12 text-center mt-5">
+              <p class="d-inline-flex gap-1">
+                <a class="btn btn-primary citation" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Citations
+                </a>
+              </p>
+          </div>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                <p>“James Madison.” Encyclopædia Britannica, Encyclopædia Britannica, inc., 18 Feb. 2025, www.britannica.com/biography/James-Madison.</p>
+                <p>“James Madison.” Wikipedia, Wikimedia Foundation, 2 Mar. 2025, en.wikipedia.org/wiki/James_Madison.</p>
+              </div>
+            </div>
+            <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+          </footer>
+        </div>
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

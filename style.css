@@ -1,3 +1,11 @@
+body{
+    background-image:url(imgs/President\ Background.jpg);
+    background-position:center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color:white;
+}
 html {
     height: 100%;
     width: 100%;
@@ -7,4 +15,7 @@ html {
     height:50vh;
     object-fit: cover;
     object-position: center;
+}
+footer{
+    color:black !important;
 }
